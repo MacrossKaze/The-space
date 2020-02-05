@@ -2,10 +2,65 @@
 <html>
 	<head>
 		<title>My First Webpage!</title>
+		<style>
+			div{
+				border: 0.375rem solid crimson
+			}
+			
+			.foo {
+				color: aqua;
+			}
+			
+			#top {
+				font-size: 36px;
+				color: red;
+			}
+			
+			#middle {
+			    font-size: 24px;
+			}
+			
+			#bottom {
+			    font-size: 12px;
+			}
+			
+			.name {
+				font-family: Arial, sans-serif;
+				font-weight: 200;
+				color: darkblue;
+			}
+			
+			h1 {
+			    color: blue;
+			    text-align: center;
+			}
+		</style>
 	</head>
 	<body>
-		Hello, world again! local
-		here is feature!
-		Add a new line.
+		<div>All divs have crimson border!</div>
+		<p class="foo">Here is aqua class!</p>
+		<p>No class!</p>
+		<p class="foo">Class again!</p>
+		<div id="top">
+			This is the <span class="name">top</span> of my web page.
+		</div>
+		<div id="middle">
+		    This is the <span class="name">middle</span> of my web page.
+		</div>
+		<div id="bottom">
+		    This is the <span class="name">bottom</span> of my web page.
+		</div>
+		<form>
+			<input type="text" placeholder="Full name" name="name">
+			<button>Submit!</button>
+		</form>
+		<h1>This is the largest headline</h1>
+		<h2>This is also a large headline</h2>
+		<h3>This is a slightly smaller headline</h3>
+		<h4>This is an even smaller headline</h4>
+		<h5>This is the second-smallest headline</h5>
+		<h6>This is the smallest headline</h6>
+		<img src="cat.jpg" alt="cat" width="300" height="200">
+		<a href="http://google.com">Click here to Google!</a>
 	</body>
 </html>
