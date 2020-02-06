@@ -1,0 +1,117 @@
+div{
+			text-align: center;
+				
+			}
+			
+			.foo {
+				color: aqua;
+			}
+			
+			#top {
+				font-size: 36px;
+				color: red;
+			}
+			
+			#middle {
+			    font-size: 24px;
+			}
+			
+			#bottom {
+			    font-size: 12px;
+			}
+			
+			.name {
+				font-family: Arial, sans-serif;
+				font-weight: 200;
+				color: darkblue;
+			}
+			
+			h1 {
+			    color: blue;
+			    text-align: center;
+			}
+			
+input[type=text] {
+	background-color: aqua;
+}
+
+input[type=number] {
+	background-color: darkgoldenrod;
+}
+
+button:hover{
+	background-color: orange;
+}
+
+a::before {
+                content: "\21d2  Click here: ";
+                font-weight: bold;
+            }
+			
+.row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+			
+.another {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.another > div {
+	background-color: springgreen;
+	font-size: 20px;
+	margin: 20px;
+	padding: 20px;
+	width: 200px;
+}
+
+.grid {
+	background-color: green;
+	display: grid;
+	padding: 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+	grid-template-columns: 200px 200px auto;
+            }
+
+.grid-item {
+	background-color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+		}
+		
+@media (min-width: 800px) {
+	h1::before {
+	    content: "Welcome to My Web Page!";
+	}
+}
+
+@media (max-width: 799px) {
+	h1::before {
+	    content: "Welcome!";
+	}
+}
+
+h2::selection{
+	color: red;
+	background-color: yellow;
+}
+
+table {
+		border: 2px solid black;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+td, th {
+		border: 1px solid black;
+		padding: 5px;
+		text-align: center;
+	}
+
+th {
+		background-color: lightgray;
+	}
